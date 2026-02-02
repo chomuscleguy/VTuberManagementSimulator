@@ -1,0 +1,14 @@
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ROKA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ROKA.AssemblyInfoInputs.cache
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ROKA.AssemblyInfo.cs
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ROKA.csproj.CoreCompileInputs.cache
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\bin\Debug\net8.0\ROKA.exe
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\bin\Debug\net8.0\ROKA.deps.json
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\bin\Debug\net8.0\ROKA.runtimeconfig.json
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\bin\Debug\net8.0\ROKA.dll
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\bin\Debug\net8.0\ROKA.pdb
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ROKA.dll
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\refint\ROKA.dll
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ROKA.pdb
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ROKA.genruntimeconfig.cache
+C:\Users\chomu\Desktop\project\GitHub\ArduinoTeamProject\script\main\main\mainScript\ROKA\obj\Debug\net8.0\ref\ROKA.dll

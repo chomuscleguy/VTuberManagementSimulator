@@ -1,0 +1,8 @@
+﻿namespace VTuberManagementSimulator
+{
+    class Inventory
+    {
+
+    }
+}
+

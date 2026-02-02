@@ -1,0 +1,7 @@
+﻿namespace VTuberManagementSimulator
+{
+    class System
+    {
+
+    }
+}
