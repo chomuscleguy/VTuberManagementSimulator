@@ -3,13 +3,13 @@
     public class VtuberSaveData
     {
         public string Name { get; set; } = "";
-        public int Game { get; set; }
-        public int Music { get; set; }
-        public int Cute { get; set; }
-        public int Mental { get; set; }
-        public int Physical { get; set; }
-        public int Subscribers { get; set; }
-        public int Fatigue { get; set; }
+        public float Game { get; set; }
+        public float Music { get; set; }
+        public float Cute { get; set; }
+        public float Mental { get; set; }
+        public float Physical { get; set; }
+        public float Subscribers { get; set; }
+        public float Fatigue { get; set; }
     }
 
     public class GameSaveData

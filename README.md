@@ -151,3 +151,44 @@ UI 개선 (선택 강조, 컬러)
 이 프로젝트는
 콘솔 환경에서의 게임 아키텍처 설계 연습과
 매니저 / 씬 / 데이터 분리 구조를 목표로 합니다.
+
+🔧 Recent Changes – Vtuber Creation Refactor
+Vtuber 생성 로직 구조 개선
+
+버튜버 생성 과정에서 Scene가 너무 많은 책임을 가지는 문제를 해결하기 위해
+생성 및 스탯 분배 로직을 별도의 Factory로 분리했습니다.
+
+변경 전
+
+CreateScene
+
+이름 입력 처리
+
+스탯 자동 분배 로직
+
+Vtuber 인스턴스 생성
+
+GameManager 생성까지 직접 담당
+
+Scene가 도메인 로직과 UI 로직을 동시에 처리
+
+변경 후
+
+CreateScene
+
+사용자 입력 및 화면 출력만 담당
+
+VtuberFactory
+
+버튜버 생성 규칙 캡슐화
+
+스탯 자동 분배 책임 전담
+
+VtuberCreateData
+
+생성 시 필요한 최소 데이터만 전달하는 DTO 역할
+
+CreateScene
+ └─ VtuberFactory.Create(VtuberCreateData)
+     └─ AutoDistributeStats()
+     └─ Vtuber 생성

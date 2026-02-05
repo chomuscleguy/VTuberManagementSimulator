@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("VTuberManagementSimulator")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c60c9bcc05ea3774ce41ddc77be738d659574cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fc29e38df920a7f27244479c985508fc216dfa7")]
 [assembly: System.Reflection.AssemblyProductAttribute("VTuberManagementSimulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VTuberManagementSimulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

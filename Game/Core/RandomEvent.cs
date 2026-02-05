@@ -22,7 +22,7 @@
 
         public void Execute(IGameManager game)
         {
-            int bonus = game.Vtuber.Game * 50;
+            int bonus = (int)game.Vtuber.Game * 50;
             game.Vtuber.GainSubscribers(bonus);
 
             Console.WriteLine($"[이벤트] {Name}");

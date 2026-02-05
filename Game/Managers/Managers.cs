@@ -20,7 +20,7 @@
                 Event = new EventManager();
             if (Game == null)
             {
-                Vtuber vtuber = new Vtuber("",0,0,0,0,0);
+                Vtuber vtuber = new Vtuber("",0.0f,0.0f,0.0f,0.0f,0.0f,0,0);
                 Game = new GameManager(vtuber);
             }
         }

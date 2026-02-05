@@ -101,21 +101,21 @@ namespace VTuberManagementSimulator
 
         private void DoStreamGame()
         {
-            int subs = Vtuber.Game * 15;
+            int subs = (int)Vtuber.Game * 15;
             Vtuber.GainSubscribers(subs);
             Vtuber.AddFatigue(25);
         }
 
         private void DoStreamMusic()
         {
-            int subs = Vtuber.Music * 15;
+            int subs = (int)Vtuber.Music * 15;
             Vtuber.GainSubscribers(subs);
             Vtuber.AddFatigue(25);
         }
 
         private void DoStreamChat()
         {
-            int subs = Vtuber.Cute * 12;
+            int subs = (int)Vtuber.Cute * 12;
             Vtuber.GainSubscribers(subs);
             Vtuber.AddFatigue(20);
         }

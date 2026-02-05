@@ -3,17 +3,17 @@
     public class Vtuber
     {
         public string Name { get; private set; }
-        public int Game { get; private set; }
-        public int Music { get; private set; }
-        public int Cute { get; private set; }
-        public int Mental { get; private set; }
-        public int Physical { get; private set; }
-        public int Subscribers { get; private set; }
-        public int Fatigue { get; private set; }
+        public float Game { get; private set; }
+        public float Music { get; private set; }
+        public float Cute { get; private set; }
+        public float Mental { get; private set; }
+        public float Physical { get; private set; }
+        public float Subscribers { get; private set; }
+        public float Fatigue { get; private set; }
 
-        private const int MAX_STAT = 100;
+        private const float MAX_STAT = 100.0f;
 
-        public Vtuber(string name, int game, int music, int cute, int mental, int physical)
+        public Vtuber(string name, float game, float music, float cute, float mental, float physical, float subscribers, float fatigue)
         {
             Name = name;
             Game = game;
@@ -21,11 +21,11 @@
             Cute = cute;
             Mental = mental;
             Physical = physical;
-            Subscribers = 0;
-            Fatigue = 0;
+            Subscribers = subscribers;
+            Fatigue = fatigue;
         }
 
-        public void SetState(int game, int music, int cute, int mental, int physical, int subscribers, int fatigue)
+        public void SetState(float game, float music, float cute, float mental, float physical, float subscribers, float fatigue)
         {
             Game = game;
             Music = music;
